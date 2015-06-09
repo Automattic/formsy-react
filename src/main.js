@@ -453,7 +453,9 @@ Formsy.Form = React.createClass({
     if (this.props.extended) {
       elFn = React.DOM.div;
       props = {
-        className: this.props.className
+        className: this.props.className,
+        className: this.props.className,
+        style: this.props.style
       };
     } else {
       elFn = React.DOM.form;
